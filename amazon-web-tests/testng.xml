@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon-Web-Tests" parallel="true" thread-count="20">
+
+    <test name="Amazon Web Tests">
+        <classes>
+         	<class name="com.amazon.web.e2e.AmazonTest" />
+        </classes>
+    </test>
+    
+</suite>
